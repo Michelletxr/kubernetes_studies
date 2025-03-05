@@ -1,5 +1,3 @@
-# kubernetes_studies
-
 # Kubernetes - Comandos Essenciais
 
 ## 📌 Gerenciamento do Cluster
