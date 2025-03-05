@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: nginx-pod-declarativo
   labels:
-    app: app-pod-1
+    app: app-pod
 spec:
   containers:
     - name: nginx-container

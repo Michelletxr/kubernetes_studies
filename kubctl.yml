@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: meu-pod
+  name: my-pod
   labels:
     app: http-echo
 spec:
@@ -11,4 +11,4 @@ spec:
       args:
         - "-text=Olá, Kubernetes!"
       ports:
-        - containerPort: 81
+        - containerPort: 5678 #por padrão esse serviço ouve na porta 5678
